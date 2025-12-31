@@ -8,13 +8,13 @@ import {
 
 export function Header() {
   return (
-    <header className="fixed top-0 w-full bg-white border-b border-zinc-200 z-50">
+    <header className="fixed top-0 w-full z-50 bg-transparent">
       <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-zinc-900">
+        <div className="flex items-center justify-center bg-transparent">
+          <Link href="/" className="bg-white text-xl font-bold text-zinc-900">
             Além da conta
           </Link>
-          <NavigationMenu>
+          <NavigationMenu className="bg-white p-2 drop-shadow-lg rounded-md">
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>

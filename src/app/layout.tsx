@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${notoSans.variable} ${jetBrainsMono.variable} antialiased`}
       >
         <Header />
-        <div className="pt-16"> {/* Espaço para o header fixo */}
+        <div> {/* Espaço para o header fixo */}
           {children}
         </div>
       </body>
