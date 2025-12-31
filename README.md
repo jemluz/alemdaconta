@@ -1,20 +1,43 @@
-# Matemática como Pensar
+# Alem da conta
 
-Um site educacional sobre matemática focado em filosofia, sentido e relações, e não apenas como disciplina escolar.
+This project is an educational website that brings mathematics as a **way of thinking**, and not just as an isolated discipline.
 
-## Visão Geral
+a way to organize thought and understand the world.
 
-Este projeto é um site educacional construído com Next.js, priorizando simplicidade, clareza, legibilidade e SEO. Utiliza shadcn/ui como base de componentes para uma interface minimalista e consistente.
+## Overview
 
-## Estrutura
+This project is an educational website built with Next.js, prioritizing simplicity, clarity, readability, and SEO. It uses shadcn/ui as the base for components for a minimalist and consistent interface.
 
-- **Home**: Página inicial com apresentação do conceito e convite para estudo.
-- **Origem**: Explicação da origem e filosofia do projeto.
-- **Ementa**: Estrutura dos conteúdos educacionais.
-- **Estude**: Área principal de aprendizado com layout preparado para sidebar.
-- **Contato**: Informações de contato.
+## Project Vision
 
-## Tecnologias
+The site starts as a **content site**, simple, readable, and focused on reading and reflection.
+Over time, as users engage and the content matures, the project can evolve to include:
+
+- interactions between readers
+- comments and discussions
+- eventually, a study and reflection forum
+
+This evolution is intentional and gradual.
+
+## What this project is NOT (for now)
+
+- It is not a complex application
+- It does not have user authentication
+- It does not have a database
+- It does not have a comment or forum system
+- It is not a dashboard or corporate platform
+
+These decisions are intentional in this initial phase.
+
+## Structure
+
+- **Home**: Initial page with presentation of the concept and invitation to study.
+- **Origin**: Explanation of the origin and philosophy of the project.
+- **Syllabus**: Structure of educational contents.
+- **Study**: Main learning area with layout prepared for sidebar.
+- **Contact**: Contact information.
+
+## Technologies
 
 - Next.js 15
 - TypeScript
@@ -22,22 +45,31 @@ Este projeto é um site educacional construído com Next.js, priorizando simplic
 - shadcn/ui
 - ESLint
 
-## Como executar
+## How to run
 
-1. Instale as dependências:
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Execute o servidor de desenvolvimento:
+2. Run the development server:
 
    ```bash
    npm run dev
    ```
 
-3. Abra [http://localhost:3000](http://localhost:3000) no navegador.
+3. Open [http://localhost:3000](http://localhost:3000) in the browser.
 
-## Desenvolvimento
+## Development
 
-O projeto está estruturado para crescer, com foco em conteúdo estático inicialmente. A navegação entre páginas já está funcional, e a interface é consistente baseada em shadcn/ui.
+The project is structured to grow, with focus on static content initially. Navigation between pages is already functional, and the interface is consistent based on shadcn/ui.
+
+## Current State
+
+This repository represents the **pilot phase** of the project.
+Initially, only one complete level of the syllabus will be developed for validation of format, tone, and experience.
+
+---
+
+This README is an active part of the project and must evolve with it.
